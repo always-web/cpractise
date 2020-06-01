@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.15)
+project(cprojectdemo C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(main main.c)
+add_executable(functiondefin functiondefin.c)
+add_executable(voidpoint voidpoint.c)
+add_executable(Demo0 memory/Demo0.c)
+add_executable(Demo1 memory/Demo1.c)
+add_executable(LinkedList memory/LinkedList.c)
+add_executable(ForkFunctionDemo process/ForkFunctionDemo.c)
+add_executable(VforkFunctionDemo process/VforkFunctionDemo.c)
+add_executable(ExecDemo process/ExecDemo.c)
+add_executable(New2 process/New2.c)
+add_executable(Pthread thread/Pthread.c)
+add_executable(PipeDemo pipe/PipeDemo.c)
